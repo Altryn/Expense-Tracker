@@ -136,3 +136,19 @@ td, th{
 thead > tr {
   text-align: left;
 }
+
+#confirm-delete-dialog {
+  padding: 1rem;
+  margin: 1rem auto;
+}
+.confirm-delete-dialog-btn-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.hapus:hover {
+  background-color: #aa1111;
+  color: white;
+}
